@@ -1,5 +1,5 @@
 # Clic and Cut
-Web application to make an appointment with a hairdresser
+Web application ads rental chair between a hairdresser manager and an independent hairdresser.
 
 Technologies used :
 1. Golang
