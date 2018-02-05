@@ -1,0 +1,6 @@
+#espace_pro {
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    background: #252525;
+}

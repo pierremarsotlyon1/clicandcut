@@ -1,0 +1,83 @@
+html{
+  background: #fafafa;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.bg--black {
+  background: #252525;
+}
+
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.m-b-45 {
+  margin-bottom: 45px;
+}
+
+.float-none-important{
+  float:none !important;
+}
+
+.btn--danger,
+.btn--danger:visited {
+  background: #d9534f;
+  border-color: #d43f3a;
+}
+.btn--danger .btn__text,
+.btn--danger:visited .btn__text {
+  color: #fff;
+}
+.btn--danger .btn__text i,
+.btn--danger:visited .btn__text i {
+  color: #fff;
+}
+.btn--danger:hover {
+  background: #d9534f;
+}
+.btn--danger:active {
+  background: #d9534f;
+}
+
+.notification-error {
+  background-color: #bd362f !important;
+}
+
+.notification-warning {
+  background-color: #f89406 !important;
+}
+.notification-success {
+  background-color: #51a351 !important;
+}
+
+.notification-info {
+  background-color: #2f96b4 !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

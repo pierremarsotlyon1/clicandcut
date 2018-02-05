@@ -1,0 +1,95 @@
+{
+  "coiffure": {
+    "mappings": {
+      "annonce": {
+        "_parent": {
+          "type": "gerant"
+        },
+        "_routing": {
+          "required": true
+        },
+        "properties": {
+          "address": {
+            "type": "text"
+          },
+          "client_gerant": {
+            "type": "boolean"
+          },
+          "created_date": {
+            "type": "date"
+          },
+          "description": {
+            "type": "text"
+          },
+          "dimanche": {
+            "type": "boolean"
+          },
+          "jeudi": {
+            "type": "boolean"
+          },
+          "location": {
+            "type": "geo_point"
+          },
+          "lundi": {
+            "type": "boolean"
+          },
+          "mardi": {
+            "type": "boolean"
+          },
+          "mercredi": {
+            "type": "boolean"
+          },
+          "name_shop": {
+            "type": "text"
+          },
+          "phone_number": {
+            "type": "keyword"
+          },
+          "photo": {
+            "type": "keyword"
+          },
+          "samedi": {
+            "type": "boolean"
+          },
+          "search_date": {
+            "type": "date"
+          },
+          "tarif": {
+            "type": "integer"
+          },
+          "telephone": {
+            "type": "boolean"
+          },
+          "titre": {
+            "type": "text"
+          },
+          "vendredi": {
+            "type": "boolean"
+          },
+          "wifi": {
+            "type": "boolean"
+          }
+        }
+      },
+      "gerant": {
+        "properties": {
+          "email": {
+            "type": "keyword"
+          },
+          "nom": {
+            "type": "text"
+          },
+          "password": {
+            "type": "keyword"
+          },
+          "prenom": {
+            "type": "text"
+          },
+          "siret": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}
